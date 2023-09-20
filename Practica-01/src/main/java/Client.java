@@ -14,7 +14,7 @@ public class Client {
     }
 
     public void enviarEmail(MailAdapter email) throws InterruptedException {
-        System.out.println("Enviando al cliente " + nombre + " " + email.send(" {NUEVO EMAIL}"));
+        System.out.println("Enviando al cliente " + nombre + " | " + email.send(" {NUEVO EMAIL}"));
         System.out.println("Cargando...");
         Thread.sleep(3500);
         System.out.println("Email entregado correctamente");
